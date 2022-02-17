@@ -1,0 +1,229 @@
+
+ /*fondo de la web*/
+
+body {background-color: rgb(99, 153, 235);
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    /*border: black solid 5px;*/
+    }
+    
+
+    .div1 { grid-area: 1 / 1 / 2 / 4; }
+    .div2 { grid-area: 2 / 1 / 3 / 4; }
+    .div3 { grid-area: 3 / 1 / 4 / 4; }
+    .div4 { grid-area: 4 / 1 / 5 / 4; }
+    .div5 { grid-area: 5 / 1 / 6 / 4; } 
+
+
+
+
+/*estilos para el nav y header*/
+nav ul li {
+padding: 10px; 
+/*margin: 15px; */
+font-size: 30px;
+}
+
+
+/*.div1 { border: black solid 15px;}
+.div2 { border: black solid 15px;}
+.div3 { border: black solid 15px;}
+.div4 { border: black solid 15px;}
+.div5 { border: black solid 15px;}*/
+
+.header-container { display: flex;
+justify-content: space-around;
+align-items: center;
+height: 300px;
+}
+
+
+header nav ul {list-style: none;
+overflow: hidden;}
+
+header nav ul li { float: left;}
+
+header nav ul li a { display: block;
+padding: 10px;
+color: rgb(255, 145, 0);
+font-size: 20px;
+text-decoration: none;
+}
+
+header img { height: 250px;
+    width: 250px;
+}   
+
+/*Encabezado principal*/
+h1 { font-size: 50px;
+color: rgb(255, 0, 255);
+display: flex;
+justify-content: center;
+/*margin-bottom: 70px;*/
+margin-top: 200px;
+text-decoration-line:underline  ;
+text-decoration-color: black;
+}
+
+/*Seccion Ubicacion*/
+.iframe-ubicacion { width: 150px;
+    height: 150px;
+    float: right
+    }
+
+.Ubicandonos{ display: flex;
+justify-content: center;
+margin-top: 150px;
+}
+
+.ubicacion { color: white;
+    background-color: rgb(144, 182, 238);
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 20px;
+    text-align: center;
+    width: 60%;
+    height: 70px;
+    }
+
+
+h2 {font-size: 50px;
+color: rgb(255, 0, 255);
+display: flex;
+justify-content: start;
+}
+
+/*Estilos seccion cursos*/
+    
+.curso-practico { display: flex;
+justify-content: start;
+margin:30px ;
+}
+
+.curso-teorico {display: flex;
+justify-content: start;
+margin: 30px;
+}
+
+.curso-estacionamiento{ display: flex;
+justify-content: start;
+margin: 30px;
+}
+    
+
+
+/*Estilos de footer*/
+
+.redes { display: flex;
+justify-content: space-around;
+margin-top: 500px;
+}
+
+.redes img { height: 50px;
+width: 50px;
+}
+
+.cv { font-size: 13px;
+}
+
+
+
+/*estilos de parrafos*/
+    p {
+        color: white;
+        background-color: rgb(144, 182, 238);
+        padding: 20px;
+        margin: 0px 5px;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+     
+strong { color: rgb(255, 0, 255);}
+   
+    /*tamaños de imagen y posision*/
+    .cursos img {
+        height: 100px;
+        width: 100px;
+        margin: 0px;
+     }
+
+/*Comienzo HTML NOSOTROS*/
+
+.el-comienzo { margin-bottom: 25px;}
+
+.foto-comienzo { display: flex;
+justify-content: center;
+}
+
+.llegando-alfinal { margin-top: 25px;}
+
+/*Comienzo de HTML SERVICIOS*/
+
+.los-servicios img { width: 300px;
+height: 300px;
+}
+
+.los-servicios {display: flex;
+justify-content: space-around;
+margin-top: 90px;
+}
+
+.cada-servicio { display: flex;
+justify-content: space-around;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+/*Comienzo de HTML UNIDADES*/
+
+.autos img{ width: 300px;
+height: 300px;
+}
+
+.autos {display: flex;
+justify-content: space-around;
+}
+
+.unidades { display: flex;
+justify-content: space-around;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
+/*Comienzo de HTML CONTACTO*/
+
+.telefonos { font-size: 30px;
+color: black;
+margin: 20px;
+padding: 30px;
+display: block;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    h2 {font-size: 15px;
+        color: red;
+        display: flex;
+        justify-content: start;
+        }
+    .parent { display: flexbox ;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 980px) {
+    body{ display: flex;
+    justify-content: flex-start;
+    }
+    p { color: orangered;}
+
+}
+
+@media screen and (min-width: 981px)

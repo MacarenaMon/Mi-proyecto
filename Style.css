@@ -205,7 +205,11 @@ padding: 30px;
 display: block;
 }
 
+/*transicion*/
 
+.transicion { transition: all 2s;}
+
+.transicion:hover { transform: scale(2);}
 
 
 @media screen and (max-width: 480px) {

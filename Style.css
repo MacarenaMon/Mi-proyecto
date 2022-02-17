@@ -159,6 +159,7 @@ strong { color: rgb(255, 0, 255);}
 
 .foto-comienzo { display: flex;
 justify-content: center;
+width: 100%;
 }
 
 .llegando-alfinal { margin-top: 25px;}

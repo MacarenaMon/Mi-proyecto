@@ -4,31 +4,31 @@
 body {background-color: rgb(99, 153, 235);
 }
 
-.parent {
+/*.parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    /*border: black solid 5px;*/
-    }
+    /*border: black solid 5px;
+    }*/
     
 
-    .div1 { grid-area: 1 / 1 / 2 / 4; }
+    /*.div1 { grid-area: 1 / 1 / 2 / 4; }
     .div2 { grid-area: 2 / 1 / 3 / 4; }
     .div3 { grid-area: 3 / 1 / 4 / 4; }
     .div4 { grid-area: 4 / 1 / 5 / 4; }
-    .div5 { grid-area: 5 / 1 / 6 / 4; } 
+    .div5 { grid-area: 5 / 1 / 6 / 4; } */
 
 
 
 
 /*estilos para el nav y header*/
-nav ul li {
-padding: 10px; 
+/* nav ul li {
+padding: 10px;  */
 /*margin: 15px; */
-font-size: 30px;
-}
+/* font-size: 30px;
+} */
 
 
 /*.div1 { border: black solid 15px;}
@@ -41,7 +41,7 @@ font-size: 30px;
 justify-content: space-around;
 align-items: center;
 height: 300px;
-}
+} 
 
 
 header nav ul {list-style: none;
@@ -59,6 +59,7 @@ text-decoration: none;
 header img { height: 250px;
     width: 250px;
 }   
+
 
 /*Encabezado principal*/
 h1 { font-size: 50px;
@@ -80,6 +81,7 @@ text-decoration-color: black;
 .Ubicandonos{ display: flex;
 justify-content: center;
 margin-top: 150px;
+margin-bottom: 150px;
 }
 
 .ubicacion { color: white;
@@ -191,6 +193,10 @@ height: 300px;
 justify-content: space-around;
 }
 
+.autitos { color:darkblue;
+font-size: 40px;
+background-color: azure;}
+
 .unidades { display: flex;
 justify-content: space-around;
 margin-top: 40px;
@@ -213,7 +219,7 @@ display: block;
 .transicion:hover { transform: scale(2);}
 
 
-@media screen and (max-width: 480px) {
+/*@media screen and (max-width: 480px) {
     h2 {font-size: 15px;
         color: red;
         display: flex;
@@ -231,4 +237,4 @@ display: block;
 
 }
 
-@media screen and (min-width: 981px)
+@media screen and (min-width: 981px)*/

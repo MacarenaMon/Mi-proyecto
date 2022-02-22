@@ -7,9 +7,7 @@ body {background-color: rgb(99, 153, 235);
 .header-container { display: flex;
 justify-content: space-around;
 align-items: center;
-height: 300px;
 } 
-
 
 header nav ul {list-style: none;
 overflow: hidden;}
@@ -17,9 +15,9 @@ overflow: hidden;}
 header nav ul li { float: left;}
 
 header nav ul li a { display: block;
-padding: 10px;
+padding: 10px; 
 color: rgb(255, 145, 0);
-font-size: 20px;
+font-size: 30px;
 text-decoration: none;
 }
 
@@ -46,7 +44,6 @@ text-decoration-color: black;
     }
 
 .Ubicandonos{ display: flex;
-justify-content: center;
 margin-top: 150px;
 margin-bottom: 150px;
 }

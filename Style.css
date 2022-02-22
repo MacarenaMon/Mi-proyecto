@@ -4,17 +4,6 @@
 body {background-color: rgb(99, 153, 235);
 }
 
-
-
-/*estilos para el nav y header*/
-/* nav ul li {
-padding: 10px;  */
-/*margin: 15px; */
-/* font-size: 30px;
-} */
-
-
-
 .header-container { display: flex;
 justify-content: space-around;
 align-items: center;
@@ -65,18 +54,19 @@ margin-bottom: 150px;
 .ubicacion { color: white;
     background-color: rgb(144, 182, 238);
     font-size: 20px;
-    padding: 5px;
     margin-right: 20px;
     text-align: center;
-    width: 60%;
-    height: 70px;
+    display: flex;
+    align-items: center;
     }
 
-
+@media screen and (max-width: 980px) { 
+    .iframe-ubicacion { display: none;}
+}
+    
 h2 {font-size: 50px;
 color: rgb(255, 0, 255);
 display: flex;
-justify-content: start;
 }
 
 /*Estilos seccion cursos*/
@@ -98,19 +88,7 @@ margin: 30px;
     
 
 
-/*Estilos de footer*/
 
-.redes { display: flex;
-justify-content: space-around;
-margin-top: 500px;
-}
-
-.redes img { height: 50px;
-width: 50px;
-}
-
-.cv { font-size: 13px;
-}
 
 
 
@@ -153,24 +131,6 @@ margin-bottom: 40px;
 }
 
 /*Comienzo de HTML UNIDADES*/
-
-.autos img{ width: 300px;
-height: 300px;
-}
-
-.autos {display: flex;
-justify-content: space-around;
-}
-
-.autitos { color:darkblue;
-font-size: 40px;
-background-color: azure;}
-
-.unidades { display: flex;
-justify-content: space-around;
-margin-top: 40px;
-margin-bottom: 40px;
-}
 
 
 /*Comienzo HTML NOSOTROS*/
@@ -233,22 +193,6 @@ margin-bottom: 30px;}
     .div8 { grid-area: 8 / 1 / 9 / 2; }}
 
 
-/*.el-comienzo { margin-bottom: 25px;}
-
-.foto-comienzo { display: flex;
-justify-content: center;
-width: 100%;
-}
-
-.llegando-alfinal { margin-top: 25px;}*/
-
-
-
-
-
-
-
-
 /*Comienzo de HTML CONTACTO*/
 
 .contacto-1 { color: deeppink;
@@ -309,31 +253,21 @@ background-color: rgb(99, 153, 235);}
 }
 
 
+/*Estilos de footer*/
 
+.redes { display: flex;
+justify-content: space-around;
+margin-top: 200px;
+}
 
+.redes img { height: 50px;
+width: 50px;
+}
+
+.cv { font-size: 13px;
+}
 /*transicion*/
 
 .transicion { transition: all 2s;}
 
 .transicion:hover { transform: scale(2);}
-
-
-/*@media screen and (max-width: 480px) {
-    h2 {font-size: 15px;
-        color: red;
-        display: flex;
-        justify-content: start;
-        }
-    .parent { display: flexbox ;
-    }
-}
-
-@media screen and (min-width: 481px) and (max-width: 980px) {
-    body{ display: flex;
-    justify-content: flex-start;
-    }
-    p { color: orangered;}
-
-}
-
-@media screen and (min-width: 981px)*/

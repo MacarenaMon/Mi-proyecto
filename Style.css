@@ -40,8 +40,11 @@ text-decoration-color: black;
 /*Seccion Ubicacion*/
 .iframe-ubicacion { width: 150px;
     height: 150px;
-    float: right
-    }
+    float: right;
+}
+
+.iframe-ubicacion:hover {transform: translateX(-120px) scale(2);
+transition: all 5s;}
 
 .Ubicandonos{ display: flex;
 margin-top: 150px;
@@ -62,15 +65,16 @@ margin-bottom: 150px;
 }
     
 h2 {font-size: 50px;
-color: rgb(255, 0, 255);
-display: flex;
+color: rgb(255, 0, 255); 
+font-family: fantasy;
 }
+
 
 /*Estilos seccion cursos*/
     
 .curso-practico { display: flex;
 justify-content: start;
-margin:30px ;
+margin: 30px;
 }
 
 .curso-teorico {display: flex;
@@ -85,10 +89,6 @@ margin: 30px;
     
 
 
-
-
-
-
 /*estilos de parrafos*/
     p {
         color: white;
@@ -97,8 +97,10 @@ margin: 30px;
         margin: 0px 5px;
         font-size: 20px;
         font-family: Georgia, 'Times New Roman', Times, serif;
-    }
+    } 
      
+
+
 strong { color: rgb(255, 0, 255);}
    
     /*tamaños de imagen y posision*/
@@ -129,32 +131,33 @@ margin-bottom: 40px;
 
 /*Comienzo de HTML UNIDADES*/
 
+.unidades-1 { margin-top: 150px;}
 
 /*Comienzo HTML NOSOTROS*/
 .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    border: black solid 10px;}
+    /* border: black solid 10px; */}
 
     .div1 { grid-area: 1 / 1 / 2 / 3;
-    border: fuchsia solid 15px; }
+    /* border: fuchsia solid 15px;  */}
     .div2 { grid-area: 2 / 1 / 3 / 3; 
-        border: violet solid 15px;}
+        /* border: violet solid 15px; */}
     .div3 { grid-area: 3 / 1 / 4 / 2; 
-        border: aqua solid 15px;
+        /* border: aqua solid 15px; */
     width: 100%;}
     .div4 { grid-area: 3 / 2 / 4 / 3;
-        border: blue solid 15px;
+        /* border: blue solid 15px; */
     width: 100%; }
     .div5 { grid-area: 4 / 1 / 5 / 2;
-        border: green solid 15px; }
+        /* border: green solid 15px;  */}
     .div6 { grid-area: 4 / 2 / 5 / 3;
-        border: yellow solid 15px; }
+        /* border: yellow solid 15px;  */}
     .div7 { grid-area: 5 / 1 / 6 / 3;
-        border: red solid 15px; }
+        /* border: red solid 15px;  */}
     .div8 { grid-area: 6 / 1 / 7 / 3;
-        border: orange solid 15px; }
+        /* border: orange solid 15px;  */}
     
 #div6 { width: 100%;
 margin-top: 2px;
@@ -169,7 +172,11 @@ margin-bottom: 30px;}
     align-items: center;}
 
 
-.nosotros-1 { color: deeppink;}
+.nosotros-1 { color: deeppink;
+display: flex;
+align-items: center;
+margin-top: 150px;
+}
 
 @media screen and (max-width: 980px) {
     .parent {
@@ -268,3 +275,14 @@ width: 50px;
 .transicion { transition: all 2s;}
 
 .transicion:hover { transform: scale(2);}
+
+
+.animate__tada:hover {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */}
+}
+
+

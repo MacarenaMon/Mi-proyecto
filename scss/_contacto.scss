@@ -1,0 +1,59 @@
+/*Comienzo de HTML CONTACTO*/
+
+.contacto-1 { color: deeppink;
+    font-size: 50px;
+    margin: 100px 0px 60px 0px;}
+    
+    .contacto-2 { font-size: 20px;
+        margin-bottom: 140px;
+        margin-top: 80px;
+    }
+    
+    
+    form { width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 10px;
+    }
+    
+    input, textarea { width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+    }
+    
+    textarea { min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;}
+    
+    #boton-form { background-color: cadetblue;
+    color: black;
+    padding: 20px;}
+    
+    #boton-form:hover { background-color: blueviolet;
+    font-family:Georgia, 'Times New Roman', Times, serif;}
+    
+    .contacto-3 { color: deeppink;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    background-color: rgb(99, 153, 235);}
+    
+    .contacto-4 { color: deeppink;
+    font-size: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(99, 153, 235);}
+    
+    .contacto-5 { font-size: 20px;
+    }
+    
+    @media screen and (max-width:480px) {
+        form {width: 100%;}
+    }
+    

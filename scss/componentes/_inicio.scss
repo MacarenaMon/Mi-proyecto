@@ -1,11 +1,13 @@
+@import "../base/listas";
+
 /*Encabezado principal*/
-h1 { font-size: 50px;
+h1 { font-size: nth($list: $size , $n:3 ) ;
     color: rgb(255, 0, 255);
     display: flex;
     justify-content: center;
     /*margin-bottom: 70px;*/
-    margin-top: 150px;
-    text-decoration-line:underline  ;
+    margin-top: nth($list:$margin , $n:1 );
+    text-decoration-line:underline;
     text-decoration-color: black;
     }
     
@@ -19,14 +21,14 @@ h1 { font-size: 50px;
     transition: all 5s;}
     
     .Ubicandonos{ display: flex;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: nth($list:$margin , $n:1 );
+    margin-bottom: nth($list:$margin , $n:1 );
     }
     
     .ubicacion { color: white;
         background-color: rgb(144, 182, 238);
-        font-size: 20px;
-        margin-right: 20px;
+        font-size: nth($list: $size, $n:4 );
+        margin-right: nth($list: $margin, $n:6 );
         text-align: center;
         display: flex;
         align-items: center;
@@ -36,39 +38,39 @@ h1 { font-size: 50px;
         .iframe-ubicacion { display: none;}
     }
         
-    h2 {font-size: 50px;
-    color: rgb(255, 0, 255); 
+    h2 {font-size: nth($list:$size , $n:3);
+    color: nth($list:$colores, $n:2 );
     font-family: fantasy;
     }
     /*Estilos seccion cursos*/
     
 .curso-practico { display: flex;
     justify-content: start;
-    margin: 30px;
-    margin-top: 100px;
+    margin: nth($list: $margin, $n:5 );
+    margin-top: nth($list: $margin, $n:2 );
     }
     
     .curso-teorico {display: flex;
     justify-content: start;
-    margin: 30px;
-    margin-top: 60px;
+    margin: nth($list: $margin, $n:5 );
+    margin-top: nth($list:$margin , $n:3 );
     }
     
     .curso-estacionamiento{ display: flex;
     justify-content: start;
-    margin: 30px;
-    margin-top: 60px;
+    margin: nth($list: $margin, $n:5 );
+    margin-top: nth($list: $margin, $n:3 );
     }
     
-    .nuestros-cursos { margin-bottom: 150px;}
+    .nuestros-cursos { margin-bottom: nth($list: $margin, $n:1 );}
         
     /*estilos de parrafos*/
     p {
-        color: white;
+        color: nth($list: $colores , $n:4 );
         background-color: rgb(144, 182, 238);
         padding: 20px;
         margin: 0px 5px;
-        font-size: 20px;
+        font-size: nth($list:$size, $n:4 );
         font-family: Georgia, 'Times New Roman', Times, serif;
     } 
      

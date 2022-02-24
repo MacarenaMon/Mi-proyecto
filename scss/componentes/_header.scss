@@ -1,0 +1,35 @@
+
+.header-container { display: flex;
+    justify-content: space-around;
+    align-items: center;
+    } 
+    
+header { 
+    nav{
+        ul{list-style: none;
+            overflow: hidden;
+            li{ float: left;
+                a{ display: block;
+                    padding: 10px; 
+                    color: rgb(255, 145, 0);
+                    font-size: 30px;
+                    text-decoration: none;
+
+                }
+            }
+        }
+    }
+}
+
+
+    header img { height: 250px;
+        width: 250px;
+    }   
+    
+    .animate__tada:hover {
+        display: inline-block;
+        margin: 0 0.5rem;
+      
+        animation: bounce; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s; /* don't forget to set a duration! */}
+    

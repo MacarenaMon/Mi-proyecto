@@ -9,11 +9,9 @@ header nav ul {
   list-style: none;
   overflow: hidden;
 }
-
 header nav ul li {
   float: left;
 }
-
 header nav ul li a {
   display: block;
   padding: 10px;
@@ -27,6 +25,16 @@ header img {
   width: 250px;
 }
 
+.animate__tada:hover {
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: bounce;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
+}
+
+/*Estilos de footer*/
 /*Estilos de footer*/
 .redes {
   display: flex;
@@ -266,6 +274,9 @@ textarea {
     width: 100%;
   }
 }
+/*colores*/
+/*tamaños*/
+/*fuentes*/
 /*Encabezado principal*/
 h1 {
   font-size: 50px;
@@ -313,7 +324,7 @@ h1 {
 }
 h2 {
   font-size: 50px;
-  color: fuchsia;
+  color: deeppink;
   font-family: fantasy;
 }
 

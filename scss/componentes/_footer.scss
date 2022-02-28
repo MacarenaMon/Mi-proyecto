@@ -1,22 +1,18 @@
 /*Estilos de footer*/
-
-/*Estilos de footer*/
-
 .redes { display: flex;
     justify-content: space-around;
     margin-top: 200px;
     }
     
-    .redes img { height: 50px;
+.redes img { height: 50px;
     width: 50px;
     }
     
-    .cv { font-size: 13px;
+.cv { font-size: 13px;
     }
     
-    /*transicion, animación*/
+/*transicion, animación*/
+.transicion { transition: all 2s;}
     
-    .transicion { transition: all 2s;}
-    
-    .transicion:hover { transform: scale(2);}
+.transicion:hover { transform: scale(2);}
     

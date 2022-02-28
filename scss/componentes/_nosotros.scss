@@ -5,24 +5,24 @@
     grid-template-rows: repeat(6, 1fr);
     /* border: black solid 10px; */}
 
-    .div1 { grid-area: 1 / 1 / 2 / 3;
+.div1 { grid-area: 1 / 1 / 2 / 3;
     /* border: fuchsia solid 15px;  */}
-    .div2 { grid-area: 2 / 1 / 3 / 3; 
-        /* border: violet solid 15px; */}
-    .div3 { grid-area: 3 / 1 / 4 / 2; 
-        /* border: aqua solid 15px; */
+.div2 { grid-area: 2 / 1 / 3 / 3; 
+    /* border: violet solid 15px; */}
+.div3 { grid-area: 3 / 1 / 4 / 2; 
+    /* border: aqua solid 15px; */
     width: 100%;}
-    .div4 { grid-area: 3 / 2 / 4 / 3;
-        /* border: blue solid 15px; */
+.div4 { grid-area: 3 / 2 / 4 / 3;
+    /* border: blue solid 15px; */
     width: 100%; }
-    .div5 { grid-area: 4 / 1 / 5 / 2;
-        /* border: green solid 15px;  */}
-    .div6 { grid-area: 4 / 2 / 5 / 3;
-        /* border: yellow solid 15px;  */}
-    .div7 { grid-area: 5 / 1 / 6 / 3;
-        /* border: red solid 15px;  */}
-    .div8 { grid-area: 6 / 1 / 7 / 3;
-        /* border: orange solid 15px;  */}
+.div5 { grid-area: 4 / 1 / 5 / 2;
+    /* border: green solid 15px;  */}
+.div6 { grid-area: 4 / 2 / 5 / 3;
+    /* border: yellow solid 15px;  */}
+.div7 { grid-area: 5 / 1 / 6 / 3;
+    /* border: red solid 15px;  */}
+.div8 { grid-area: 6 / 1 / 7 / 3;
+    /* border: orange solid 15px;  */}
     
 #div6 { width: 100%;
 margin-top: 2px;
@@ -35,7 +35,6 @@ margin-bottom: 30px;}
 
 .div3, .div4, .div5, .div6, .div7 {display: flex;
     align-items: center;}
-
 
 .nosotros-1 { color: deeppink;
 display: flex;

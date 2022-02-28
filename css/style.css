@@ -5,36 +5,29 @@
   align-items: center;
 }
 
+header nav {
+  background-color: #6399eb;
+}
 header nav ul {
   list-style: none;
-  overflow: hidden;
 }
 header nav ul li {
-  float: left;
-}
-header nav ul li a {
-  display: block;
-  padding: 10px;
   color: #ff9100;
   font-size: 30px;
   text-decoration: none;
 }
 
-header img {
-  height: 250px;
-  width: 250px;
+.header-img {
+  width: 60%;
 }
 
 .animate__tada:hover {
   display: inline-block;
   margin: 0 0.5rem;
   animation: bounce;
-  /* referring directly to the animation's @keyframe declaration */
   animation-duration: 2s;
-  /* don't forget to set a duration! */
 }
 
-/*Estilos de footer*/
 /*Estilos de footer*/
 .redes {
   display: flex;
@@ -69,9 +62,14 @@ header img {
 .los-servicios {
   display: flex;
   justify-content: space-around;
-  margin-top: 90px;
+  margin-top: 200px;
 }
 
+@media (max-width: 900px) {
+  .los-servicios {
+    visibility: hidden;
+  }
+}
 .cada-servicio {
   display: flex;
   justify-content: space-around;
@@ -79,9 +77,30 @@ header img {
   margin-bottom: 40px;
 }
 
+.sub-h1 {
+  color: deeppink;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: cursive;
+  text-decoration: underline;
+  padding-left: 20px;
+}
+
 /*Comienzo de HTML UNIDADES*/
 .unidades-1 {
-  margin-top: 150px;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.sub-h1 {
+  color: deeppink;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: cursive;
+  text-decoration: underline;
+  padding-left: 20px;
 }
 
 /*Comienzo HTML NOSOTROS*/
@@ -144,12 +163,17 @@ header img {
 .div2, .div8 {
   display: flex;
   align-items: center;
+  padding: 10px;
+}
+
+.div8 {
   margin-bottom: 30px;
 }
 
 .div3, .div4, .div5, .div6, .div7 {
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 
 .nosotros-1 {
@@ -157,6 +181,10 @@ header img {
   display: flex;
   align-items: center;
   margin-top: 150px;
+  font-size: 50px;
+  font-family: cursive;
+  text-decoration: underline;
+  padding-left: 20px;
 }
 
 @media screen and (max-width: 980px) {
@@ -204,13 +232,18 @@ header img {
 .contacto-1 {
   color: deeppink;
   font-size: 50px;
-  margin: 100px 0px 60px 0px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: cursive;
+  text-decoration: underline;
+  padding-left: 20px;
 }
 
 .contacto-2 {
   font-size: 20px;
   margin-bottom: 140px;
   margin-top: 80px;
+  padding: 10px;
 }
 
 form {
@@ -256,6 +289,7 @@ textarea {
   margin-top: 80px;
   margin-bottom: 50px;
   background-color: #6399eb;
+  margin-left: 0px;
 }
 
 .contacto-4 {
@@ -267,6 +301,7 @@ textarea {
 
 .contacto-5 {
   font-size: 20px;
+  margin-left: 15px;
 }
 
 @media screen and (max-width: 480px) {
@@ -278,15 +313,16 @@ textarea {
 /*tamaños*/
 /*fuentes*/
 /*Encabezado principal*/
-h1 {
+.index-h1 {
   font-size: 50px;
   color: fuchsia;
   display: flex;
   justify-content: center;
-  /*margin-bottom: 70px;*/
   margin-top: 150px;
   text-decoration-line: underline;
   text-decoration-color: black;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 /*Seccion Ubicacion*/
@@ -352,13 +388,19 @@ h2 {
 
 .nuestros-cursos {
   margin-bottom: 150px;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-family: cursive;
+  text-decoration: underline;
+  padding-left: 20px;
 }
 
 /*estilos de parrafos*/
 p {
   color: white;
   background-color: #90b6ee;
-  padding: 20px;
+  padding: 10px;
   margin: 0px 5px;
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -375,6 +417,9 @@ strong {
   margin: 0px;
 }
 
+/*colores*/
+/*tamaños*/
+/*fuentes*/
 /*fondo de la web*/
 body {
   background-color: #6399eb;

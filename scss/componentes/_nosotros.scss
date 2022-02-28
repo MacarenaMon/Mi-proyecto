@@ -31,15 +31,23 @@ height: 400px;}
 
 .div2, .div8 { display: flex;
 align-items: center;
-margin-bottom: 30px;}
+padding: 10px;}
+
+.div8 {margin-bottom: 30px}
 
 .div3, .div4, .div5, .div6, .div7 {display: flex;
-    align-items: center;}
+    align-items: center;
+padding: 10px;}
+
 
 .nosotros-1 { color: deeppink;
 display: flex;
 align-items: center;
 margin-top: 150px;
+font-size: 50px;
+font-family: cursive;
+text-decoration:underline;
+padding-left: 20px;
 }
 
 @media screen and (max-width: 980px) {

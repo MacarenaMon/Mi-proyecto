@@ -5,24 +5,23 @@
     } 
     
 header { 
-    nav{
+    nav{ background-color: rgb(99, 153, 235);
         ul{list-style: none;
-            overflow: hidden;
-            li{ float: left;
-                a{ display: block;
-                    padding: 10px; 
-                    color: rgb(255, 145, 0);
-                    font-size: 30px;
-                    text-decoration: none;
+            // overflow: hidden;
+            li{ 
+                
+                color: rgb(255, 145, 0);
+                font-size: 30px;
+                text-decoration: none;
+                
 
-                }
             }
         }
-    }
+   } 
 }
 
-header img { height: 250px;
-    width: 250px;
+.header-img { 
+    width: 60%;
     }   
     
 .animate__tada:hover {

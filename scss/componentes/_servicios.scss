@@ -7,8 +7,9 @@
     justify-content: space-around;
     margin-top: 200px;}
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .los-servicios { visibility: hidden;}
+
 }
     
 .cada-servicio { display: flex;
@@ -25,3 +26,8 @@
     text-decoration:underline;
     padding-left: 20px;
 }
+
+.animate__jello:hover {
+    display: inline-block;
+    animation: jello;
+    animation-duration: 10s;}

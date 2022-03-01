@@ -9,3 +9,12 @@ margin-bottom: 100px;
 font-family: cursive;
 text-decoration:underline;
 padding-left: 20px;}
+
+.animate__jello:hover {
+    display: inline-block;
+    animation: jello;
+    animation-duration: 10s;}
+
+@media (max-width: 480px) { 
+    .sub-h1 { font-size: 20px;}
+}

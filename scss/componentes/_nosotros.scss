@@ -50,6 +50,11 @@ text-decoration:underline;
 padding-left: 20px;
 }
 
+.animate__jello:hover {
+    display: inline-block;
+    animation: jello;
+    animation-duration: 10s;}
+
 @media screen and (max-width: 980px) {
     .parent {
     display: grid;

@@ -28,10 +28,13 @@ header nav ul li {
   animation-duration: 2s;
 }
 
-/*Estilos de footer*/
 .redes {
   display: flex;
   justify-content: space-around;
+}
+
+/*Estilos de footer*/
+.redes {
   margin-top: 200px;
 }
 

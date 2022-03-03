@@ -1,6 +1,9 @@
+@import "../base/extends";
+
+
+
 /*Estilos de footer*/
-.redes { display: flex;
-    justify-content: space-around;
+.redes { @extend %ordenar;
     margin-top: 200px;
     }
     

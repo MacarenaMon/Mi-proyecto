@@ -1,7 +1,10 @@
+@import "../base/maps";
+
+
 /*Comienzo de HTML CONTACTO*/
 .contacto-1  { color: deeppink;
-    font-size: 50px;
-    margin-top: 100px;
+    font-size: map-get($map: $contacto, $key: font-cont );
+    margin-top: map-get($map: $contacto, $key: margin-cont );
     margin-bottom: 100px;
     font-family: cursive;
     text-decoration:underline;
@@ -60,7 +63,7 @@ textarea { min-height: 100px;
 .contacto-4 { color: deeppink;
     font-size: 20px;
     margin-bottom: 30px;
-    background-color: rgb(99, 153, 235);
+    background-color:map-get($map: $contacto, $key: bg-cont );
     }
     
 .contacto-5 { font-size: 20px;

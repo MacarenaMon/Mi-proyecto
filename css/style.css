@@ -6,7 +6,7 @@
 }
 
 header nav {
-  background-color: #6399eb;
+  background-color: lightblue;
 }
 header nav ul {
   list-style: none;
@@ -36,6 +36,8 @@ header nav ul li {
 /*Estilos de footer*/
 .redes {
   margin-top: 200px;
+  background-color: lightblue;
+  padding: 30px;
 }
 
 .redes img {
@@ -338,7 +340,7 @@ textarea {
 
 @media (max-width: 480px) {
   .contacto-1 {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   .contacto-2 {
@@ -346,7 +348,7 @@ textarea {
   }
 
   .contacto-3 {
-    font-size: 30px;
+    font-size: 15px;
   }
 
   .contacto-4, .contacto-5 {
@@ -369,7 +371,7 @@ textarea {
   margin-right: 10px;
 }
 @media screen and (max-width: 490px) {
-  .index-h1 {
+  .index-h1 .index-h1 {
     color: black;
     font-size: 40px;
     background-color: green;

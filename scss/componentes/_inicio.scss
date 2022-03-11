@@ -2,7 +2,7 @@
 
 /*Encabezado principal*/
 .index-h1 { font-size: nth($list: $size , $n:3 ) ;
-    color: rgb(255, 0, 255);
+    color: deeppink;
     display: flex;
     justify-content: center;
     margin-top: nth($list:$margin , $n:1 );
@@ -10,11 +10,12 @@
     text-decoration-color: black;
     margin-left: 10px;
     margin-right: 10px;
-    }
-@media screen and (max-width:490px) {
-    .index-h1 {font-size: 20px;
-    margin-left: 33%;
-    margin-right: 33%;}
+
+    @media screen and (max-width:490px) {
+        .index-h1 { color: black;
+            font-size: 40px;
+            background-color: green;}
+        }
 
 
 }
@@ -93,5 +94,3 @@ strong { color: rgb(255, 0, 255);}
     width: 100px;
     margin: 0px;
     }
-
-    

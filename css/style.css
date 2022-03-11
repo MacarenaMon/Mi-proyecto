@@ -338,7 +338,7 @@ textarea {
 
 @media (max-width: 480px) {
   .contacto-1 {
-    font-size: 20px;
+    font-size: 40px;
   }
 
   .contacto-2 {
@@ -346,7 +346,7 @@ textarea {
   }
 
   .contacto-3 {
-    font-size: 10px;
+    font-size: 30px;
   }
 
   .contacto-4, .contacto-5 {
@@ -359,7 +359,7 @@ textarea {
 /*Encabezado principal*/
 .index-h1 {
   font-size: 50px;
-  color: fuchsia;
+  color: deeppink;
   display: flex;
   justify-content: center;
   margin-top: 150px;
@@ -368,14 +368,14 @@ textarea {
   margin-left: 10px;
   margin-right: 10px;
 }
-
 @media screen and (max-width: 490px) {
   .index-h1 {
-    font-size: 20px;
-    margin-left: 33%;
-    margin-right: 33%;
+    color: black;
+    font-size: 40px;
+    background-color: green;
   }
 }
+
 /*Seccion Ubicacion*/
 .iframe-ubicacion {
   width: 150px;

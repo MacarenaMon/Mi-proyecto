@@ -1,36 +1,26 @@
 
 .header-container { display: flex;
-    justify-content: space-around;
     align-items: center;
-
-    } 
+     } 
     
 header { 
     nav{ background-color: lightblue;
+        width: 100%;
         ul{list-style: none;
             // overflow: hidden;
             li{ 
-                
                 color: rgb(255, 145, 0);
-                font-size: 30px;
+                font-size: 20px;
                 text-decoration: none;
+                padding: 12px;
             
-                
-
             }
         }
    } 
 }
 
 .header-img { 
-    width: 60%;
+    width: 50%;
     }   
     
-.animate__tada:hover {
-    display: inline-block;
-    margin: 0 0.5rem;
-      
-    animation: bounce; 
-    animation-duration: 2s; 
-    }
     

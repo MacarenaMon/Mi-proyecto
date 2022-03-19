@@ -2,3 +2,38 @@
     display: flex;
     justify-content: space-around;
 }
+
+%h1-index {
+    color: rgb(1, 75, 172);
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Georgia;
+    padding: 20px;
+}
+
+%h1-indexhov {
+    font-size: 60px;
+    color: deeppink; 
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 0, 0.342);
+    padding: 20px;
+}
+
+%h1-resto{
+    font-size: 48px;
+    color: rgb(1, 75, 172);
+    font-family: Georgia;
+    text-decoration: underline double;
+    padding: 20px;
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    
+}

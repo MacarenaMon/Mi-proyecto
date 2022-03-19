@@ -1,94 +1,114 @@
 @import "../base/listas";
+@import "../base/extends";
 
 /*Encabezado principal*/
-.index-h1 { font-size: nth($list: $size , $n:3 ) ;
-    color: deeppink;
-    display: flex;
-    justify-content: center;
-    margin-top: nth($list:$margin , $n:1 );
-    text-decoration-line:underline;
-    text-decoration-color: black;
-    margin-left: 10px;
-    margin-right: 10px;
+.index-h1 {
+    @extend %h1-index;
+    font-size: 60px;
 
-    @media screen and (max-width:490px) {
-        .index-h1 { color: black;
-            font-size: 40px;
-            background-color: green;}
-        }
+    &:hover { @extend %h1-indexhov;}
+}
 
-
+@media (max-width: 480px) {
+    .index-h1 { font-size: 40px;
+        &:hover { font-size: 40px;
+            color: deeppink; 
+            display: flex;
+            justify-content: center;
+            margin-top: 150px;
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: rgba(255, 255, 0, 0.342);
+            padding: 20px;}
+    }
 }
     
+
 /*Seccion Ubicacion*/
-.iframe-ubicacion { width: 150px;
-    height: 150px;
-    float: right;
-    }
-    
-    
 .Ubicandonos{ display: flex;
     margin-top: nth($list:$margin , $n:1 );
     margin-bottom: nth($list:$margin , $n:1 );
-    }
-    
-.ubicacion { color: white;
-    background-color: rgb(144, 182, 238);
-    font-size: nth($list: $size, $n:4 );
-    margin-right: nth($list: $margin, $n:6 );
-    text-align: center;
-    display: flex;
-    align-items: center;
-    }
-    
+    .iframe-ubicacion { width: 150px;
+        height: 150px;
+        float: right;
+        }
+        .ubicacion { color: white;
+            background-color: rgb(99, 153, 235);
+            font-size: nth($list: $size, $n:6 );
+            margin-right: nth($list: $margin, $n:6 );
+            text-align: center;
+            display: flex;
+            align-items: center;
+            }
         
-h2 {font-size: nth($list:$size , $n:3);
-    color: nth($list:$colores, $n:2 );
-    font-family: fantasy;
+    @media (max-width: 480px) {
+        .ubicacion { display: none;}
+        .iframe-ubicacion { margin-left: 30%;
+        margin-top: 0px}
+    }
+}
+    
+/*Estilo seccion cursos*/
+
+.cursos{
+    .nuestros-cursos{ @extend %h1-resto;
+        margin-bottom: 50px; 
+        &:hover { color: deeppink;
+        background-color: rgba(255, 255, 0, 0.342);
+        display: inline-block;
+        padding: 20px;}
     }
 
-/*Estilos seccion cursos*/
-.curso-practico { display: flex;
-    justify-content: start;
-    margin: nth($list: $margin, $n:5 );
-    margin-top: nth($list: $margin, $n:2 );
+    .curso-practico { 
+        background: rgb(99, 153, 235);
+        border-radius: 5px;
+        margin-right: 3px;}
+
+    .curso-teorico { 
+        background: rgb(99, 153, 235);
+        border-radius: 5px;
+        margin-right: 3px;
     }
+    .curso-estacionamiento{ 
+        background: rgb(99, 153, 235);
+        border-radius: 5px;}
     
-.curso-teorico {display: flex;
-    justify-content: start;
-    margin: nth($list: $margin, $n:5 );
-    margin-top: nth($list:$margin , $n:3 );
+    ul { display: flex;
+    justify-content: flex-start;}
+    li { list-style-type: none;}
+
+    img {
+    width: 100px;
+    margin-bottom: 15px; 
     }
-    
-.curso-estacionamiento{ display: flex;
-    justify-content: start;
-    margin: nth($list: $margin, $n:5 );
-    margin-top: nth($list: $margin, $n:3 );
+
+    .p-cu { font-size: 25px;
+        &:hover { background-color: lightblue;}
     }
-    
-.nuestros-cursos { margin-bottom: nth($list: $margin, $n:1 );
-    font-size: 50px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    font-family: cursive;
-    text-decoration:underline;
-    padding-left: 20px;}
-        
+
+    @media (max-width: 480px) {
+        .p-cu { font-size: 13px;}
+        .nuestros-cursos { font-size: 30px;
+            &:hover{font-size: 30px;
+                color: deeppink;
+                font-family: Georgia;
+                text-decoration: underline double;
+                padding: 20px;
+                display: inline-block;
+                display: flex;
+                justify-content: flex-start;
+                background-color: rgba(255, 255, 0, 0.342); }
+
+        }
+
+    }
+}
+
 /*estilos de parrafos*/
-p {
-    color: nth($list: $colores , $n:4 );
-    background-color: rgb(144, 182, 238);
-    padding: 10px;
-    margin: 0px 5px;
-    font-size: nth($list:$size, $n:4 );
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    } 
-     
+    
 strong { color: rgb(255, 0, 255);}
    
 /*tamaños de imagen y posision*/
-.cursos img {
-    height: 100px;
-    width: 100px;
-    margin: 0px;
-    }
+
+.cursos img { width: 100px;
+height: 100px;}

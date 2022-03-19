@@ -1,19 +1,24 @@
 @import "../base/extends";
 
-
-
 /*Estilos de footer*/
-.redes { @extend %ordenar;
+.redes { 
+    @extend %ordenar;
     margin-top: 200px;
-    background-color: lightblue;
-padding: 30px;}
+    background-color: rgb(99, 153, 235);
+    padding: 30px;
+    .like {
+        padding: 2px;
+        font-family:Georgia;
+        color: blue;
+     }
+
+}
     
-.redes img { height: 50px;
+.redes img { 
+    height: 50px;
     width: 50px;
     }
     
-.cv { font-size: 13px;
-    }
     
 /*transicion, animación*/
 .transicion { transition: all 2s;}

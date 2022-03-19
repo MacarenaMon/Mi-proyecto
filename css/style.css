@@ -4,8 +4,11 @@
   align-items: center;
 }
 
+header img {
+  width: 50%;
+}
 header nav {
-  background-color: lightblue;
+  background-color: #6399eb;
   width: 100%;
 }
 header nav ul {
@@ -18,8 +21,24 @@ header nav ul li {
   padding: 12px;
 }
 
-.header-img {
-  width: 50%;
+.nav-link {
+  font-family: Georgia;
+  color: #014bac;
+}
+.nav-link:hover {
+  color: deeppink;
+  background-color: rgba(255, 255, 0, 0.342);
+}
+
+.container-fluid {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
 .redes {
@@ -27,20 +46,55 @@ header nav ul li {
   justify-content: space-around;
 }
 
+.index-h1 {
+  color: #014bac;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Georgia;
+  padding: 20px;
+}
+
+.index-h1:hover {
+  font-size: 60px;
+  color: deeppink;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 0, 0.342);
+  padding: 20px;
+}
+
+.cursos .nuestros-cursos, .contacto-1, .parent .nosotros-1, .sub-h1 {
+  font-size: 48px;
+  color: #014bac;
+  font-family: Georgia;
+  text-decoration: underline double;
+  padding: 20px;
+  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
+}
+
 /*Estilos de footer*/
 .redes {
   margin-top: 200px;
-  background-color: lightblue;
+  background-color: #6399eb;
   padding: 30px;
+}
+.redes .like {
+  padding: 2px;
+  font-family: Georgia;
+  color: blue;
 }
 
 .redes img {
   height: 50px;
   width: 50px;
-}
-
-.cv {
-  font-size: 13px;
 }
 
 /*transicion, animación*/
@@ -52,28 +106,70 @@ header nav ul li {
   transform: scale(2);
 }
 
+.redes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.index-h1 {
+  color: #014bac;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Georgia;
+  padding: 20px;
+}
+
+.index-h1:hover {
+  font-size: 60px;
+  color: deeppink;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 0, 0.342);
+  padding: 20px;
+}
+
+.cursos .nuestros-cursos, .contacto-1, .parent .nosotros-1, .sub-h1 {
+  font-size: 48px;
+  color: #014bac;
+  font-family: Georgia;
+  text-decoration: underline double;
+  padding: 20px;
+  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
+}
+
 /*Comienzo de HTML SERVICIOS*/
 .img-serv {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 100px;
   margin-bottom: 40px;
+}
+.img-serv .animate__jello:hover {
+  display: inline-block;
+  animation: jello;
+  animation-duration: 8s;
 }
 
 .sub-h1 {
-  color: deeppink;
-  font-size: 50px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  font-family: cursive;
-  text-decoration: underline;
-  padding-left: 20px;
+  margin-top: 60px;
 }
 
-.animate__jello:hover {
-  display: inline-block;
-  animation: jello;
-  animation-duration: 10s;
+.ser-1 {
+  font-size: 20px;
+  color: #6399eb;
+  font-family: Georgia;
+  margin-top: 20px;
+}
+.ser-1:hover {
+  background-color: rgba(255, 255, 0, 0.342);
 }
 
 /*Comienzo de HTML UNIDADES*/
@@ -97,13 +193,21 @@ header nav ul li {
 }
 .caracteristicas1 h3 {
   text-decoration: underline;
-  color: #0f0d92;
+  color: #014bac;
+  display: inline-block;
+}
+.caracteristicas1 h3:hover {
+  background-color: rgba(255, 255, 0, 0.342);
 }
 .caracteristicas1 ul {
   margin-top: 30px;
 }
 .caracteristicas1 li {
   font-size: 22px;
+}
+.caracteristicas1 li:hover {
+  transform: translateX(150px);
+  transition: 4s;
 }
 
 .animate__jello:hover {
@@ -114,91 +218,108 @@ header nav ul li {
 
 @media (max-width: 480px) {
   .sub-h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
+.autitos {
+  background-color: black;
+  display: inline-block;
+}
+
+.autitos1 {
+  background-color: black;
+  display: inline-block;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.index-h1 {
+  color: #014bac;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Georgia;
+  padding: 20px;
+}
+
+.index-h1:hover {
+  font-size: 60px;
+  color: deeppink;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 0, 0.342);
+  padding: 20px;
+}
+
+.cursos .nuestros-cursos, .contacto-1, .parent .nosotros-1, .sub-h1 {
+  font-size: 48px;
+  color: #014bac;
+  font-family: Georgia;
+  text-decoration: underline double;
+  padding: 20px;
+  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
+}
+
 /*Comienzo HTML NOSOTROS*/
 .parent {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  /* border: black solid 10px; */
 }
-
-.div1 {
+.parent .div1 {
   grid-area: 1/1/2/3;
-  /* border: fuchsia solid 15px;  */
 }
-
-.div2 {
+.parent .div2 {
   grid-area: 2/1/3/3;
-  /* border: violet solid 15px; */
+  padding: 10px;
 }
-
-.div3 {
+.parent .div3 {
   grid-area: 3/1/4/2;
-  /* border: aqua solid 15px; */
-  width: 100%;
+  padding: 10px;
 }
-
-.div4 {
+.parent .div4 {
   grid-area: 3/2/4/3;
-  /* border: blue solid 15px; */
-  width: 100%;
+  padding: 10px;
 }
-
-.div5 {
+.parent .div5 {
   grid-area: 4/1/5/2;
-  /* border: green solid 15px;  */
+  padding: 10px;
 }
-
-.div6 {
+.parent .div6 {
   grid-area: 4/2/5/3;
-  /* border: yellow solid 15px;  */
+  padding: 10px;
 }
-
-.div7 {
+.parent .div7 {
   grid-area: 5/1/6/3;
-  /* border: red solid 15px;  */
+  padding: 10px;
 }
-
-.div8 {
+.parent .div8 {
   grid-area: 6/1/7/3;
-  /* border: orange solid 15px;  */
+  padding: 10px;
+}
+.parent .nosotros-1 {
+  margin-top: 70px;
+}
+.parent .nosotros2 {
+  font-size: 20px;
+  color: #6399eb;
+  font-family: Georgia;
+  margin-top: 20px;
 }
 
 #div6 {
   width: 100%;
   margin-top: 2px;
   margin-bottom: 2px;
-  height: 400px;
-}
-
-.div2, .div8 {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-}
-
-.div8 {
-  margin-bottom: 30px;
-}
-
-.div3, .div4, .div5, .div6, .div7 {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-}
-
-.nosotros-1 {
-  color: deeppink;
-  display: flex;
-  align-items: center;
-  margin-top: 150px;
-  font-size: 50px;
-  font-family: cursive;
-  text-decoration: underline;
-  padding-left: 20px;
 }
 
 .animate__jello:hover {
@@ -211,72 +332,99 @@ header nav ul li {
   .parent {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(8, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
   }
-
-  .div1 {
+  .parent .div1 {
     grid-area: 1/1/2/2;
+    margin: 0px;
   }
-
-  .div2 {
+  .parent .div2 {
     grid-area: 2/1/3/2;
+    margin: 0px;
   }
-
-  .div3 {
+  .parent .div3 {
     grid-area: 3/1/4/2;
+    margin: 0px;
   }
-
-  .div4 {
+  .parent .div4 {
     grid-area: 4/1/5/2;
   }
-
-  .div5 {
+  .parent .div5 {
     grid-area: 5/1/6/2;
   }
-
-  .div6 {
+  .parent .div6 {
     grid-area: 6/1/7/2;
   }
-
-  .div7 {
+  .parent .div7 {
     grid-area: 7/1/8/2;
   }
-
-  .div8 {
+  .parent .div8 {
     grid-area: 8/1/9/2;
   }
 }
+.redes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.index-h1 {
+  color: #014bac;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Georgia;
+  padding: 20px;
+}
+
+.index-h1:hover {
+  font-size: 60px;
+  color: deeppink;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 0, 0.342);
+  padding: 20px;
+}
+
+.cursos .nuestros-cursos, .contacto-1, .sub-h1, .parent .nosotros-1 {
+  font-size: 48px;
+  color: #014bac;
+  font-family: Georgia;
+  text-decoration: underline double;
+  padding: 20px;
+  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
+}
+
 /*Comienzo de HTML CONTACTO*/
 .contacto-1 {
-  color: deeppink;
-  font-size: 50px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  font-family: cursive;
-  text-decoration: underline;
-  padding-left: 20px;
+  margin-top: 70px;
 }
 
 .contacto-2 {
   font-size: 20px;
-  margin-bottom: 140px;
-  margin-top: 80px;
-  padding: 10px;
+  color: #6399eb;
+  font-family: Georgia;
+  margin-top: 70px;
+}
+.contacto-2:hover {
+  background-color: rgba(255, 255, 0, 0.342);
 }
 
 form {
   width: 450px;
   margin: auto;
-  background: rgba(0, 0, 0, 0.4);
+  background: #014bac;
   padding: 10px 20px;
   box-sizing: border-box;
-  margin-top: 30px;
+  margin-top: 70px;
   border-radius: 10px;
 }
-
-input, textarea {
+form input, form textarea {
   width: 100%;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -285,8 +433,7 @@ input, textarea {
   font-size: 15px;
   border: none;
 }
-
-textarea {
+form textarea {
   min-height: 100px;
   max-height: 200px;
   max-width: 100%;
@@ -298,36 +445,53 @@ textarea {
   padding: 20px;
 }
 
+#boton-form:hover {
+  background-color: blueviolet;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 .animate__jello:hover {
   display: inline-block;
   animation: jello;
   animation-duration: 10s;
 }
 
-#boton-form:hover {
-  background-color: blueviolet;
-  font-family: Georgia, "Times New Roman", Times, serif;
+@media (max-width: 480px) {
+  form {
+    width: 380px;
+  }
 }
-
 .contacto-3 {
-  color: deeppink;
   font-size: 20px;
-  margin-top: 80px;
-  margin-bottom: 50px;
-  background-color: #6399eb;
-  margin-left: 0px;
+  color: #6399eb;
+  font-family: Georgia;
+  margin-top: 70px;
+}
+.contacto-3:hover {
+  background-color: rgba(255, 255, 0, 0.342);
 }
 
 .contacto-4 {
-  color: deeppink;
   font-size: 20px;
-  margin-bottom: 30px;
-  background-color: #6399eb;
+  color: #6399eb;
+  font-family: Georgia;
+  margin-top: 40px;
+}
+.contacto-4:hover {
+  background-color: rgba(255, 255, 0, 0.342);
 }
 
 .contacto-5 {
   font-size: 20px;
-  margin-left: 15px;
+  color: #6399eb;
+  font-family: Georgia;
+  margin-top: 40px;
+}
+.contacto-5 .cont {
+  margin-top: 10px;
+}
+.contacto-5:hover {
+  background-color: rgba(255, 255, 0, 0.342);
 }
 
 @media (max-width: 480px) {
@@ -350,106 +514,165 @@ textarea {
 /*colores*/
 /*tamaños*/
 /*fuentes*/
-/*Encabezado principal*/
+.redes {
+  display: flex;
+  justify-content: space-around;
+}
+
 .index-h1 {
-  font-size: 50px;
+  color: #014bac;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-family: Georgia;
+  padding: 20px;
+}
+
+.index-h1:hover {
+  font-size: 60px;
   color: deeppink;
   display: flex;
   justify-content: center;
   margin-top: 150px;
-  text-decoration-line: underline;
-  text-decoration-color: black;
   margin-left: 10px;
   margin-right: 10px;
+  background-color: rgba(255, 255, 0, 0.342);
+  padding: 20px;
 }
-@media screen and (max-width: 490px) {
-  .index-h1 .index-h1 {
-    color: black;
+
+.cursos .nuestros-cursos, .sub-h1, .parent .nosotros-1, .contacto-1 {
+  font-size: 48px;
+  color: #014bac;
+  font-family: Georgia;
+  text-decoration: underline double;
+  padding: 20px;
+  display: inline-block;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*Encabezado principal*/
+.index-h1 {
+  font-size: 60px;
+}
+@media (max-width: 480px) {
+  .index-h1 {
     font-size: 40px;
-    background-color: green;
+  }
+  .index-h1:hover {
+    font-size: 40px;
+    color: deeppink;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 0, 0.342);
+    padding: 20px;
   }
 }
-
 /*Seccion Ubicacion*/
-.iframe-ubicacion {
-  width: 150px;
-  height: 150px;
-  float: right;
-}
-
 .Ubicandonos {
   display: flex;
   margin-top: 150px;
   margin-bottom: 150px;
 }
-
-.ubicacion {
+.Ubicandonos .iframe-ubicacion {
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+.Ubicandonos .ubicacion {
   color: white;
-  background-color: #90b6ee;
-  font-size: 20px;
+  background-color: #6399eb;
+  font-size: 25px;
   margin-right: 20px;
   text-align: center;
   display: flex;
   align-items: center;
 }
+@media (max-width: 480px) {
+  .Ubicandonos .ubicacion {
+    display: none;
+  }
+  .Ubicandonos .iframe-ubicacion {
+    margin-left: 30%;
+    margin-top: 0px;
+  }
+}
 
-h2 {
-  font-size: 50px;
+/*Estilo seccion cursos*/
+.cursos .nuestros-cursos {
+  margin-bottom: 50px;
+}
+.cursos .nuestros-cursos:hover {
   color: deeppink;
-  font-family: fantasy;
+  background-color: rgba(255, 255, 0, 0.342);
+  display: inline-block;
+  padding: 20px;
 }
-
-/*Estilos seccion cursos*/
-.curso-practico {
+.cursos .curso-practico {
+  background: #6399eb;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+.cursos .curso-teorico {
+  background: #6399eb;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+.cursos .curso-estacionamiento {
+  background: #6399eb;
+  border-radius: 5px;
+}
+.cursos ul {
   display: flex;
-  justify-content: start;
-  margin: 30px;
-  margin-top: 100px;
+  justify-content: flex-start;
 }
-
-.curso-teorico {
-  display: flex;
-  justify-content: start;
-  margin: 30px;
-  margin-top: 60px;
+.cursos li {
+  list-style-type: none;
 }
-
-.curso-estacionamiento {
-  display: flex;
-  justify-content: start;
-  margin: 30px;
-  margin-top: 60px;
+.cursos img {
+  width: 100px;
+  margin-bottom: 15px;
 }
-
-.nuestros-cursos {
-  margin-bottom: 150px;
-  font-size: 50px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  font-family: cursive;
-  text-decoration: underline;
-  padding-left: 20px;
+.cursos .p-cu {
+  font-size: 25px;
+}
+.cursos .p-cu:hover {
+  background-color: lightblue;
+}
+@media (max-width: 480px) {
+  .cursos .p-cu {
+    font-size: 13px;
+  }
+  .cursos .nuestros-cursos {
+    font-size: 30px;
+  }
+  .cursos .nuestros-cursos:hover {
+    font-size: 30px;
+    color: deeppink;
+    font-family: Georgia;
+    text-decoration: underline double;
+    padding: 20px;
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 0, 0.342);
+  }
 }
 
 /*estilos de parrafos*/
-p {
-  color: white;
-  background-color: #90b6ee;
-  padding: 10px;
-  margin: 0px 5px;
-  font-size: 20px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
 strong {
   color: fuchsia;
 }
 
 /*tamaños de imagen y posision*/
 .cursos img {
-  height: 100px;
   width: 100px;
-  margin: 0px;
+  height: 100px;
 }
 
 /*colores*/
@@ -457,7 +680,16 @@ strong {
 /*fuentes*/
 /*fondo de la web*/
 body {
-  background-color: #6399eb;
+  background-color: white;
+}
+@media (max-width: 480px) {
+  body body {
+    background-color: #bbe3f3;
+  }
+}
+
+.disclaimer {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

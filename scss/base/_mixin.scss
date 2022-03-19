@@ -1,6 +1,5 @@
-@mixin cambios ($ancho, $margen-sup, $margen-inf, $alto) {
+@mixin cambios ($ancho, $margen-sup, $margen-inf) {
     width: $ancho;
     margin-top: $margen-sup;
     margin-bottom: $margen-inf;
-    height: $alto; 
 }

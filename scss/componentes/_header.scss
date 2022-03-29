@@ -1,7 +1,8 @@
 
-.header-container { display: flex;
+.header-container { 
+    display: flex;
     align-items: center;
-     } 
+    } 
     
 header { 
 
@@ -21,10 +22,12 @@ header {
    } 
 }
 
-.nav-link { font-family: Georgia;
-color: rgb(1, 75, 172) ;
-    &:hover { color: deeppink;
-            background-color: rgba(255, 255, 0, 0.342) ;}
+.nav-link { 
+    font-family: Georgia;
+    color: rgb(1, 75, 172) ;
+    &:hover { 
+        color: deeppink;
+        background-color: rgba(255, 255, 0, 0.342) ;}
 }
 
 .container-fluid { display: flex;
@@ -32,5 +35,6 @@ color: rgb(1, 75, 172) ;
 .navbar { display: flex;
 justify-content: space-between;
 align-items: center;
-flex-wrap: nowrap;}
+flex-wrap: nowrap;
+}
 

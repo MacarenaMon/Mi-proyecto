@@ -11,17 +11,10 @@
         font-family:Georgia;
         color: blue;
      }
-
+     img { height: 50px;
+        width: 50px;}
+    .transicion { transition: all 2s;}
+    .transicion:hover { transform: scale(2);}
 }
-    
-.redes img { 
-    height: 50px;
-    width: 50px;
-    }
-    
-    
-/*transicion, animación*/
-.transicion { transition: all 2s;}
-    
-.transicion:hover { transform: scale(2);}
+
     

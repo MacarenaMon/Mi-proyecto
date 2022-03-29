@@ -91,18 +91,14 @@ header nav ul li {
   font-family: Georgia;
   color: blue;
 }
-
 .redes img {
   height: 50px;
   width: 50px;
 }
-
-/*transicion, animación*/
-.transicion {
+.redes .transicion {
   transition: all 2s;
 }
-
-.transicion:hover {
+.redes .transicion:hover {
   transform: scale(2);
 }
 
@@ -175,7 +171,8 @@ header nav ul li {
 /*Comienzo de HTML UNIDADES*/
 .unidades-1 {
   margin-top: 100px;
-  padding: 20px;
+  padding: 50px;
+  box-sizing: border-box;
 }
 
 .sub-h1 {
@@ -209,6 +206,11 @@ header nav ul li {
   transform: translateX(150px);
   transition: 4s;
 }
+@media (max-width: 480px) {
+  .caracteristicas1 li:hover {
+    transform: translateX(88px);
+  }
+}
 
 .animate__jello:hover {
   display: inline-block;
@@ -221,14 +223,10 @@ header nav ul li {
     font-size: 30px;
   }
 }
-.autitos {
+.autitos, .autitos1 {
   background-color: black;
   display: inline-block;
-}
-
-.autitos1 {
-  background-color: black;
-  display: inline-block;
+  color: white;
 }
 
 .redes {
@@ -314,6 +312,9 @@ header nav ul li {
   color: #6399eb;
   font-family: Georgia;
   margin-top: 20px;
+}
+.parent .nosotros2:hover {
+  background-color: rgba(255, 255, 0, 0.342);
 }
 
 #div6 {
@@ -680,12 +681,7 @@ strong {
 /*fuentes*/
 /*fondo de la web*/
 body {
-  background-color: white;
-}
-@media (max-width: 480px) {
-  body body {
-    background-color: #bbe3f3;
-  }
+  background-color: #f3cdf8;
 }
 
 .disclaimer {

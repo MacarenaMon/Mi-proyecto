@@ -321,6 +321,7 @@ header nav ul li {
   width: 100%;
   margin-top: 2px;
   margin-bottom: 2px;
+  box-shadow: 0 0 10px 6px black;
 }
 
 .animate__jello:hover {
